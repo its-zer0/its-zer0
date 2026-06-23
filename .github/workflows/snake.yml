@@ -16,8 +16,7 @@ jobs:
         with:
           github_user_name: its-zer0
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=F2E8CF&color_dots=161616,2b2b2b,3d3d3d,555555,F2E8CF
-
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#F2E8CF&color_dots=#161616,#2b2b2b,#3d3d3d,#555555,#F2E8CF
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
